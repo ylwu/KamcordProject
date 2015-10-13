@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BAD3C341BCBFD9500304EAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD3C331BCBFD9500304EAA /* main.m */; };
+		2BAD3C371BCBFD9500304EAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD3C361BCBFD9500304EAA /* AppDelegate.m */; };
+		2BAD3C3D1BCBFD9500304EAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BAD3C3B1BCBFD9500304EAA /* Main.storyboard */; };
+		2BAD3C3F1BCBFD9600304EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BAD3C3E1BCBFD9600304EAA /* Assets.xcassets */; };
+		2BAD3C421BCBFD9600304EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BAD3C401BCBFD9600304EAA /* LaunchScreen.storyboard */; };
+		2BAD3C4B1BCBFFA300304EAA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD3C4A1BCBFFA300304EAA /* MainViewController.m */; };
+		2BAD3C4E1BCC041F00304EAA /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD3C4D1BCC041F00304EAA /* VideoCell.m */; };
+		2BAD3C541BCC21CC00304EAA /* VideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD3C531BCC21CC00304EAA /* VideoManager.m */; };
+		2BAD3C571BCC578300304EAA /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD3C561BCC578300304EAA /* Video.m */; };
+		2BD355491BCCC0940051E46C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD355481BCCC0940051E46C /* UIKit.framework */; };
+		2BD3554B1BCCC0BE0051E46C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD3554A1BCCC0BD0051E46C /* AVFoundation.framework */; };
+		2BD355501BCCC1EB0051E46C /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD3554F1BCCC1EB0051E46C /* AVKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BAD3C2F1BCBFD9500304EAA /* KamcordProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KamcordProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BAD3C331BCBFD9500304EAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BAD3C351BCBFD9500304EAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BAD3C361BCBFD9500304EAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BAD3C3C1BCBFD9500304EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BAD3C3E1BCBFD9600304EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BAD3C411BCBFD9600304EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BAD3C431BCBFD9600304EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BAD3C491BCBFFA300304EAA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2BAD3C4A1BCBFFA300304EAA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2BAD3C4C1BCC041F00304EAA /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		2BAD3C4D1BCC041F00304EAA /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		2BAD3C521BCC21CC00304EAA /* VideoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoManager.h; sourceTree = "<group>"; };
+		2BAD3C531BCC21CC00304EAA /* VideoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoManager.m; sourceTree = "<group>"; };
+		2BAD3C551BCC578300304EAA /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		2BAD3C561BCC578300304EAA /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		2BD355481BCCC0940051E46C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2BD3554A1BCCC0BD0051E46C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2BD3554F1BCCC1EB0051E46C /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BAD3C2C1BCBFD9500304EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD355501BCCC1EB0051E46C /* AVKit.framework in Frameworks */,
+				2BD3554B1BCCC0BE0051E46C /* AVFoundation.framework in Frameworks */,
+				2BD355491BCCC0940051E46C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BAD3C261BCBFD9500304EAA = {
+			isa = PBXGroup;
+			children = (
+				2BAD3C311BCBFD9500304EAA /* KamcordProject */,
+				2BD3554C1BCCC0CD0051E46C /* Frameworks */,
+				2BAD3C301BCBFD9500304EAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BAD3C301BCBFD9500304EAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BAD3C2F1BCBFD9500304EAA /* KamcordProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BAD3C311BCBFD9500304EAA /* KamcordProject */ = {
+			isa = PBXGroup;
+			children = (
+				2BD3554E1BCCC19D0051E46C /* Data */,
+				2BD3554D1BCCC15C0051E46C /* UI */,
+				2BAD3C351BCBFD9500304EAA /* AppDelegate.h */,
+				2BAD3C361BCBFD9500304EAA /* AppDelegate.m */,
+				2BAD3C321BCBFD9500304EAA /* Supporting Files */,
+			);
+			path = KamcordProject;
+			sourceTree = "<group>";
+		};
+		2BAD3C321BCBFD9500304EAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BAD3C3E1BCBFD9600304EAA /* Assets.xcassets */,
+				2BAD3C431BCBFD9600304EAA /* Info.plist */,
+				2BAD3C331BCBFD9500304EAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BD3554C1BCCC0CD0051E46C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BD3554F1BCCC1EB0051E46C /* AVKit.framework */,
+				2BD3554A1BCCC0BD0051E46C /* AVFoundation.framework */,
+				2BD355481BCCC0940051E46C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BD3554D1BCCC15C0051E46C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2BAD3C4C1BCC041F00304EAA /* VideoCell.h */,
+				2BAD3C4D1BCC041F00304EAA /* VideoCell.m */,
+				2BAD3C491BCBFFA300304EAA /* MainViewController.h */,
+				2BAD3C4A1BCBFFA300304EAA /* MainViewController.m */,
+				2BAD3C3B1BCBFD9500304EAA /* Main.storyboard */,
+				2BAD3C401BCBFD9600304EAA /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		2BD3554E1BCCC19D0051E46C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2BAD3C551BCC578300304EAA /* Video.h */,
+				2BAD3C561BCC578300304EAA /* Video.m */,
+				2BAD3C521BCC21CC00304EAA /* VideoManager.h */,
+				2BAD3C531BCC21CC00304EAA /* VideoManager.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BAD3C2E1BCBFD9500304EAA /* KamcordProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BAD3C461BCBFD9600304EAA /* Build configuration list for PBXNativeTarget "KamcordProject" */;
+			buildPhases = (
+				2BAD3C2B1BCBFD9500304EAA /* Sources */,
+				2BAD3C2C1BCBFD9500304EAA /* Frameworks */,
+				2BAD3C2D1BCBFD9500304EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KamcordProject;
+			productName = KamcordProject;
+			productReference = 2BAD3C2F1BCBFD9500304EAA /* KamcordProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BAD3C271BCBFD9500304EAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = JasonWu;
+				TargetAttributes = {
+					2BAD3C2E1BCBFD9500304EAA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 2BAD3C2A1BCBFD9500304EAA /* Build configuration list for PBXProject "KamcordProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BAD3C261BCBFD9500304EAA;
+			productRefGroup = 2BAD3C301BCBFD9500304EAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BAD3C2E1BCBFD9500304EAA /* KamcordProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BAD3C2D1BCBFD9500304EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BAD3C421BCBFD9600304EAA /* LaunchScreen.storyboard in Resources */,
+				2BAD3C3F1BCBFD9600304EAA /* Assets.xcassets in Resources */,
+				2BAD3C3D1BCBFD9500304EAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BAD3C2B1BCBFD9500304EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BAD3C371BCBFD9500304EAA /* AppDelegate.m in Sources */,
+				2BAD3C4E1BCC041F00304EAA /* VideoCell.m in Sources */,
+				2BAD3C4B1BCBFFA300304EAA /* MainViewController.m in Sources */,
+				2BAD3C571BCC578300304EAA /* Video.m in Sources */,
+				2BAD3C341BCBFD9500304EAA /* main.m in Sources */,
+				2BAD3C541BCC21CC00304EAA /* VideoManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BAD3C3B1BCBFD9500304EAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BAD3C3C1BCBFD9500304EAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BAD3C401BCBFD9600304EAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BAD3C411BCBFD9600304EAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BAD3C441BCBFD9600304EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BAD3C451BCBFD9600304EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BAD3C471BCBFD9600304EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KamcordProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jwu.KamcordProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BAD3C481BCBFD9600304EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KamcordProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jwu.KamcordProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BAD3C2A1BCBFD9500304EAA /* Build configuration list for PBXProject "KamcordProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BAD3C441BCBFD9600304EAA /* Debug */,
+				2BAD3C451BCBFD9600304EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BAD3C461BCBFD9600304EAA /* Build configuration list for PBXNativeTarget "KamcordProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BAD3C471BCBFD9600304EAA /* Debug */,
+				2BAD3C481BCBFD9600304EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BAD3C271BCBFD9500304EAA /* Project object */;
+}
