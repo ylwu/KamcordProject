@@ -84,7 +84,7 @@
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="qnj-Ok-4Jw" kind="show" identifier="ShowVideosLoading" animates="NO" id="rrh-8e-JlY"/>
+                        <segue destination="qnj-Ok-4Jw" kind="custom" identifier="ShowVideosLoading" customClass="PushNoAnimationSegue" id="rrh-8e-JlY"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3fA-VA-5WM" userLabel="First Responder" sceneMemberID="firstResponder"/>

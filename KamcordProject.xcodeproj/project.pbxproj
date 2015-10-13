@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B85E3D11BCD8FC700F14FCB /* PushNoAnimationSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85E3D01BCD8FC700F14FCB /* PushNoAnimationSegue.m */; };
 		2BAD3C341BCBFD9500304EAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD3C331BCBFD9500304EAA /* main.m */; };
 		2BAD3C371BCBFD9500304EAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD3C361BCBFD9500304EAA /* AppDelegate.m */; };
 		2BAD3C3D1BCBFD9500304EAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BAD3C3B1BCBFD9500304EAA /* Main.storyboard */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B85E3CF1BCD8FC700F14FCB /* PushNoAnimationSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushNoAnimationSegue.h; sourceTree = "<group>"; };
+		2B85E3D01BCD8FC700F14FCB /* PushNoAnimationSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushNoAnimationSegue.m; sourceTree = "<group>"; };
 		2BAD3C2F1BCBFD9500304EAA /* KamcordProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KamcordProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BAD3C331BCBFD9500304EAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2BAD3C351BCBFD9500304EAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +112,8 @@
 		2BD3554D1BCCC15C0051E46C /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				2B85E3CF1BCD8FC700F14FCB /* PushNoAnimationSegue.h */,
+				2B85E3D01BCD8FC700F14FCB /* PushNoAnimationSegue.m */,
 				2BAD3C4C1BCC041F00304EAA /* VideoCell.h */,
 				2BAD3C4D1BCC041F00304EAA /* VideoCell.m */,
 				2BAD3C491BCBFFA300304EAA /* MainViewController.h */,
@@ -204,6 +209,7 @@
 				2BAD3C4E1BCC041F00304EAA /* VideoCell.m in Sources */,
 				2BAD3C4B1BCBFFA300304EAA /* MainViewController.m in Sources */,
 				2BAD3C571BCC578300304EAA /* Video.m in Sources */,
+				2B85E3D11BCD8FC700F14FCB /* PushNoAnimationSegue.m in Sources */,
 				2BAD3C341BCBFD9500304EAA /* main.m in Sources */,
 				2BAD3C541BCC21CC00304EAA /* VideoManager.m in Sources */,
 			);
